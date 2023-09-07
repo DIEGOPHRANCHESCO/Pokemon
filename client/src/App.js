@@ -3,7 +3,7 @@ import Navbar from "./Components/Navbar/navbar";
 import { Home, Create, Detail, Landing } from "./Views";
 import { useLocation } from "react-router-dom"
 import axios from "axios";
-axios.defaults.baseURL = 'https://pokemo-production.up.railway.app/';
+axios.defaults.baseURL = 'https://pokemons-production.up.railway.app/';
 
 
 
