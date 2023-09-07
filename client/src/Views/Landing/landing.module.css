@@ -1,0 +1,35 @@
+.con{
+  display: flex;
+  flex-direction: inherit;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center ;
+  min-height: 100vh;
+  background: url(../../image/landingPokr.png)
+  no-repeat center center fixed;
+  background-size: cover;
+}
+
+.btn {
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  background-color: rgb(217, 255, 0);
+  border-radius: 5px;
+  color: rgb(49, 49, 49);
+  font-size: 1.2em;
+  width: 12vw;
+  height: 5vh;
+  margin: 0 1rem;
+  cursor: pointer;
+  transition: transform 250ms ease;
+
+}
+
+
+btn:hover{
+  background-color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  transform: scale(2.72);
+}

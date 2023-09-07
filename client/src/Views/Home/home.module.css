@@ -1,0 +1,64 @@
+
+  .home{display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../../image/p.png)   
+    no-repeat center  fixed;
+    background-size: contain;
+    text-decoration: none;
+   
+    /* background-size: cover; */
+  }
+  .pokeB {
+ 
+    display: flex;   
+    border-radius: 50%;
+    height: 100px;    
+    margin:auto;
+    max-width: 100px;    
+    text-decoration: none;
+    cursor: pointer;
+    }
+
+    .or{
+      padding-top: 10px;
+      align-items: flex-end;
+      align-items: center;      
+      justify-content: space-between;
+      text-decoration: none;
+      
+    }
+    .filter_sort{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: white;
+      height: 5vh;
+      cursor: pointer;
+    }
+    .filter_sort span{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      text-transform: uppercase;
+      font-size: 1.2rem;
+      margin-right: 0.3rem;
+      cursor: pointer;
+    }
+
+    .filter_sort select {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      text-transform: uppercase;
+      width: 5vw;
+      height: 4vh;
+      margin-right: 1.5rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+
+    .filter_select{
+      width: 10vw !important;
+      cursor: pointer;
+    }

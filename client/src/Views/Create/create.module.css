@@ -1,0 +1,364 @@
+.con{
+  /* margin-top: -55%; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center ;
+  min-height: 100vh;
+  background: url(../../image/creat.png)
+  no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+.circle{
+
+   
+  filter: grayscale(8%) opacity(40%) ;
+  height: 102px;
+  width: 102px;
+  border-radius: 30%;
+}
+
+/* 
+.form_main_container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 75px;
+	background-color: white;
+	min-height: 100vh;
+	user-select: none;
+} */
+
+/* .form_name {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+	color: #000000;
+}
+
+.form_container {
+  display: flex;
+}
+
+
+.form_left_container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5rem;
+}
+
+ */
+
+
+
+
+
+
+
+/* 
+.for_-left_container input {
+  padding: 0 0.5rem;
+  height: 6vh;
+  width: 20vw;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+} */
+
+
+
+
+
+
+
+
+
+/* .for_-right_container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5rem;
+}
+.type_container {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+  font-size: 20px;
+}
+.type_container label {
+  margin: 0.3rem 0;
+} */
+
+
+
+/* .btn {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  color: rgb(49, 49, 49);
+  font-size: 1.2em;
+  width: 12vw;
+  height: 5vh;
+  margin: 0 1rem;
+  cursor: pointer;
+  transition: transform 250ms ease;
+
+} */
+/* .btn_reset {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-transform: uppercase;
+font-weight: 500;
+background-color: #ff0000;
+border-radius: 5px;
+cursor: pointer;
+color: #ffffff;
+font-size: 1.2em;
+width: 12vw;
+height: 7vh; */
+/* }
+.btn_reset:hover {
+  background-color: #ff2f2f;
+    color: rgb(185, 185, 185);
+} */
+/* 
+.btn_create {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+  font-weight: 500;
+  background-color: #000000;
+  border-radius: 5px;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  font-size: 1.2em;
+  width: 12vw;
+  height: 7vh;
+  margin-left: 5rem; */
+/* }
+.btn_create:hover {
+  background-color: rgb(22, 22, 22);
+    color: rgb(185, 185, 185);
+} */
+
+
+
+/* 
+.type_right_container{
+  display:flex;
+  flex-direction: column;
+  margin: 0 5rem;
+} */
+
+/* .type_container{
+  display: flex;
+  flex-direction: column;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+} */
+/* 
+.type label{
+  margin: 0.3rem 0;
+} */
+
+
+
+
+/* ___________________________ */
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+
+.pagina{
+  
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+    
+    display: flex;
+    /* justify-content: flex-end; */
+}
+
+
+
+
+.container{
+ 
+    border-radius: 5px;
+    box-shadow: 0 2px 5% rgba(0, 0, 0, 0.3);
+    width: 38rem;
+    max-width: 50%;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    right: 0%;
+    padding-bottom: 4%;
+    position: relative;
+    margin-bottom: 0.5%;
+    margin-top: 0.5%;
+    margin-right: 0.4%;
+}
+.header{
+   
+    padding: 20px 40px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.header h1{
+    margin: 0;
+}
+.formdiv{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.formdiv label{
+    display: flex;
+    margin-left: 5%;
+    margin-bottom: 5px;
+}
+.formdiv input{
+  
+    border: 2px solid #fdfdee;
+    border-radius: 4px;
+    display: flex;
+    width: 50%;
+    padding: 7px;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 1vw;
+}
+.formdiv i {
+    position: absolute;
+    top: 40px;
+    left: 54%
+}
+.formdiv p {
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    font-size: 16px;
+    -webkit-text-stroke: 1px rgb(255, 0, 0);
+    color: #000000;
+}
+
+
+
+
+
+
+.container .previous{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-transform: uppercase;
+
+background-color: black;
+border-radius: 5px;
+  color: rgb(0, 0, 0);
+  width: 40%;
+  margin-top: 0%;
+}
+
+.container .create{
+  width: 40%;
+  color: rgb(218, 218, 218);
+  margin-top: 0%;
+  transition: all 0.4s ease; 
+}
+.container .create:hover{
+  background-color: rgb(23, 143, 241);
+  border: 2px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255); 
+}
+
+.choosetypes{
+  margin-top: 2%;
+  margin-left: 4%;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
+.container button{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-transform: uppercase;
+
+background-color: black;
+border-radius: 5px;
+cursor: pointer;
+color: white;
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    width: 50%;
+    cursor: pointer;
+    margin-top: 8%;
+    margin-left: 7%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.containertypes label{
+    cursor: pointer;
+    margin-bottom: 4%;
+}
+.containertypes label input[type='checkbox']{
+    display: none;
+}
+.containertypes label:hover .circle {
+    filter: grayscale(0%) opacity(100%);
+}
+
+.containertypes{
+    display: grid;
+    grid-template-columns: repeat(5, 5fr);
+    justify-items: flex-start;
+    margin-left: 4%;
+    margin-bottom: 9%;
+    margin-top: 5%;
+}
+.containertypes label{
+    cursor: pointer;
+    margin-bottom: 4%;
+}
+.containertypes label input[type='checkbox']{
+    display: none;
+}
+.containertypes label:hover .circle {
+    filter: grayscale(0%) opacity(100%);
+}
+.containertypes label input[type='checkbox']:checked ~ .circle {
+    filter: grayscale(0%) opacity(95%);
+}
+.typeserror{
+    position: absolute;
+    font-size: 15px;
+    display: flex;
+    bottom: -8%;
+    left: 4%;
+    color: #e74c3c
+}
+.container .previous{
+    background-color: rgb(181, 225, 228);
+    border: 2px solid rgb(136, 209, 214);
+    color: rgb(0, 0, 0);
+    width: 40%;
+    margin-top: 0%;
+}
+

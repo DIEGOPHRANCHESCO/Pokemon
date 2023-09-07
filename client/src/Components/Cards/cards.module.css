@@ -1,0 +1,15 @@
+.container{
+
+  text-decoration: none;
+padding: 50px 50px 50px 50px;
+  justify-content: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8em;
+  width: 85vw;
+  margin: 80px 80px 80px 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 250px;
+}
